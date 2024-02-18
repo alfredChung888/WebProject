@@ -1,0 +1,343 @@
+/*20463494 Alfred Chung*/
+
+
+input {
+  margin-bottom: 20px;
+  padding: 12px 12px 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+
+}
+
+.item label {
+  width: 100px;
+  display: inline-block;
+}
+
+.container {
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width:1250px;
+
+}
+
+.item {
+  position: relative;
+  margin: 5px 0;
+}
+
+.container input[type=submit] {
+  width: 270px;
+  background-color: lightblue;
+}
+
+.container input[type=submit]:hover {
+  width: 270px;
+  background-color: skyblue;
+}
+
+.texts {
+  padding: 0px 10px 0px 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55em;
+  border: solid;
+  border-color: black;
+  background-color: #DCDCDC;
+  border-width: 3px;
+
+}
+
+.splitTextLeft {
+  flex: 50%;
+}
+
+.splitTextRight {
+  flex: 50%;
+}
+
+.logIn {
+  flex: 50%;
+  display: inline-block;
+  padding-right: 20px;
+  padding-left: 10px;
+
+}
+
+button {
+  background-color: #0428aa;
+  color: white;
+  padding: 12px;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+button:hover {
+  opacity: 0.5;
+  color: black;
+}
+
+.errorMsg {
+  display: none;
+  color: red;
+  border: 1px solid #7f0303;
+  background-color: #f4dcdc;
+  padding: 1px;
+  border-radius: 3px;
+  width: 200px;
+  margin-left: 10px;
+}
+
+#titleLogin{
+ padding-bottom:10px;
+ padding-left:10px;
+ padding-top:5px;
+ color:navy;
+ border:solid;
+ width:1320px;
+}
+
+
+/*Choose review page  */
+a:link {
+  color: blue;
+}
+
+/* visited link */
+a:visited {
+  color: blue;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+}
+
+
+
+.image img {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+}
+
+
+.resize{
+ width:200px;
+ height:150px;
+}
+
+#logginImg{
+width:170px;
+ height:120px;
+}
+.centerTable{
+ border:solid;
+margin-left: auto;
+  margin-right: auto;
+}
+
+center h2{
+ padding:10px;
+ border:solid;
+ border-color:black;
+ background-color:lightgray;
+}
+
+#boxed{
+ border:solid;
+ padding: 10px 0px 10px 0px;
+ background-color:whitesmoke;
+ 
+}
+
+
+
+.error-messages {
+  display: none;
+  color: #7f0303;
+  border: 1px solid #7f0303;
+  background-color: #f4dcdc;
+  padding: 1px;
+  border-radius: 3px;
+  width: 200px;
+  margin-left: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 10px;
+}
+
+table,
+th,
+td {
+  border: black solid 1px;
+  padding: 6px;
+}
+
+.createReview {
+  padding: 0 15px;
+  display: none;
+}
+
+
+#titleChoose{
+padding-bottom:10px;
+ padding-left:10px;
+ padding-top:5px;
+ color:navy;
+ border:solid;
+ width:1250px;
+}
+
+
+
+
+/* View Review */
+.title{
+ border:solid;
+ border-color:gray;
+ padding:2px 0px 2px 8px;
+ background-color:lightgray
+}
+
+.imgInView{
+
+ 	position:relative;
+ 	width:150px;
+ 	
+}
+
+#titleOfView{
+padding-bottom:10px;
+ padding-left:10px;
+ padding-top:5px;
+ color:navy;
+ border:solid;
+ width:1300px;
+ 
+}
+
+
+#acceptReview{
+ border:black solid;
+  background-color:royalblue;
+ color:white; 
+
+}
+#acceptReview:hover{
+ background-color:skyblue;
+}
+
+#acceptCheckbox{
+ border:solid;
+ padding:5px 7px 5px 7px;
+ border-radius:50px;
+}
+
+#acceptReviewText{
+ border:solid;
+ padding: 0px 0px 2px 9px;
+ border-radius:4px;
+ background-color:lightsteelblue;
+}
+
+/* Create Review */
+#titleCreate{
+ padding-bottom:10px;
+ padding-left:10px;
+ padding-top:5px;
+ color:navy;
+ border:solid;
+ width:1260px;
+}
+
+.imgInCreate{
+
+ 	position:relative;
+ 	width:180px;
+ 	
+}
+
+#instruction{
+ border:solid;
+ border-radius:5px;
+ width:350px;
+ padding: 5px 5px 5px 9px;
+ background-color:lightgrey
+ 
+}
+
+#employeeIds{
+ padding:10px 0px 10px 2px;
+ border-color:lightgray;
+ border-radius:4px;
+}
+
+#additionalCommentsTitle{
+ display:inline;
+}
+
+#inputForm{
+ border:solid;
+ border-width:1px;
+ border-radius:4px;
+ padding: 10px 0px 0px 10px;
+ border-color:lightgray;
+}
+
+#completeCheckbox{
+ border:solid;
+  border-width:1px;
+ border-radius:4px;
+  padding: 5px 0px 5px 5px;
+  border-color:lightgray;
+}
+
+.flexContainer {
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  /* padding: 10px; */
+
+}
+
+.extraPadding {
+  padding: 10px;
+
+}
+
+.ratings {
+  display: flex;
+  padding: 1em;
+  flex-wrap: wrap;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  .container {
+    display: inline-block;
+  }
+  .ratings {
+  flex-direction:column;
+}
+
+.table{
+ display:block;
+}
+
+}
